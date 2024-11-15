@@ -32,7 +32,7 @@ optional arguments:
 #
 # KaliMirrorOptimizer
 # Automatically selects the best Kali mirror and applies the configuration.
-# https://github.com/your-repo/kali-mirror-optimizer
+# https://github.com/realvoidgojo/kali-mirror-optimizer
 # https://www.metahackers.pro/speed-kali-linux-update/
 #
 
