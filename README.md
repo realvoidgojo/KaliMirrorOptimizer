@@ -24,6 +24,7 @@ optional arguments:
   -v, --verbose  Enable verbose output.
   -https         Use HTTPS in apt transport (default: HTTP).
   -src           Enable source packages (default: disabled).
+```
 
 ```py
 # python3 KaliMirrorOptimizer.py -v -https -src
