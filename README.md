@@ -13,7 +13,7 @@ Run the script with elevated privileges to ensure the `sources.list` file can be
 
 ### Command-line Help
 
-````bash
+```bash
 # python3 KaliMirrorOptimizer.py -h
 usage: KaliMirrorOptimizer.py [-h] [-v] [-https] [-src]
 
@@ -61,7 +61,7 @@ optional arguments:
 
 [+] Finished!
     - Run 'apt clean && apt update' to apply the changes.
-````
+```
 
 ## Features
 
