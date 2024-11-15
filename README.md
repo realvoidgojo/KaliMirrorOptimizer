@@ -27,41 +27,17 @@ optional arguments:
 ```
 
 ```py
-# python3 KaliMirrorOptimizer.py -v -https -src
+sudo python3 KaliMirrorOptimizer.py -v -https -src
+[+] Fetching mirrors...
+[+] Found 136 mirrors.
+[+] Finding the best mirror...
+[+] Best mirror: https://fonts.googleapis.com/kali
+[+] Backing up sources.list...
+[+] Backup created at /etc/apt/sources.list.bk
+[+] Updating sources.list...
+[+] Updated sources.list with the best mirror.
+[+] Done! Run 'sudo apt clean; sudo apt update' to apply changes.
 
-#
-# KaliMirrorOptimizer
-# Automatically selects the best Kali mirror and applies the configuration.
-# https://github.com/realvoidgojo/kali-mirror-optimizer
-# https://www.metahackers.pro/speed-kali-linux-update/
-#
-
-[-] Checking if 'apt-transport-https' package is installed.
-    - apt-transport-https is installed
-
-[+] Retrieving mirror list...
-[+] Found a list of mirrors:
-    - https://mirror1.example.com/kali
-    - https://mirror2.example.com/kali
-    - https://mirror3.example.com/kali
-    - ...
-
-[+] Testing mirrors for latency. This may take a while.
-[+] Latency results:
-    - mirror1.example.com: 320.567 ms
-    - mirror2.example.com: 280.123 ms
-    - mirror3.example.com: 300.789 ms
-    - ...
-
-[+] Fastest mirror: https://mirror2.example.com/kali (280.123 ms)
-[+] Preparing sources.list...
-    - Backing up existing sources.list to /etc/apt/sources.list.bk...
-    - Removing older entries...
-    - Updating sources.list with the new mirror...
-    - Done.
-
-[+] Finished!
-    - Run 'apt clean && apt update' to apply the changes.
 ```
 
 ## Features
